@@ -12,6 +12,14 @@ class ViewController: UITableViewController {
 
     fileprivate let cellId = "cellId"
     
+    fileprivate let appIcons = [
+        "red",
+        "blue",
+        "green",
+        "orange",
+        "yellow"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,12 +33,13 @@ class ViewController: UITableViewController {
 
 extension ViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return appIcons.count
     }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+        cell.textLabel?.text = appIcons[indexPath.row]
         return cell
     }
     

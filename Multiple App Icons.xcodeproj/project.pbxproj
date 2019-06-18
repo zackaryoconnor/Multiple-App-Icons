@@ -11,6 +11,11 @@
 		F3D9E8A122B984E000DE79CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9E8A022B984E000DE79CB /* ViewController.swift */; };
 		F3D9E8A622B984EC00DE79CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8A522B984EC00DE79CB /* Assets.xcassets */; };
 		F3D9E8A922B984EC00DE79CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8A722B984EC00DE79CB /* LaunchScreen.storyboard */; };
+		F3D9E8B622B99CB200DE79CB /* green-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8B122B99CB200DE79CB /* green-icon.png */; };
+		F3D9E8B722B99CB200DE79CB /* orange-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8B222B99CB200DE79CB /* orange-icon.png */; };
+		F3D9E8B822B99CB200DE79CB /* red-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8B322B99CB200DE79CB /* red-icon.png */; };
+		F3D9E8B922B99CB200DE79CB /* blue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8B422B99CB200DE79CB /* blue-icon.png */; };
+		F3D9E8BA22B99CB200DE79CB /* yellow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D9E8B522B99CB200DE79CB /* yellow-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		F3D9E8A522B984EC00DE79CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D9E8A822B984EC00DE79CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3D9E8AA22B984EC00DE79CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D9E8B122B99CB200DE79CB /* green-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-icon.png"; path = "Assets/App-Icons/green-icon.png"; sourceTree = SOURCE_ROOT; };
+		F3D9E8B222B99CB200DE79CB /* orange-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orange-icon.png"; path = "Assets/App-Icons/orange-icon.png"; sourceTree = SOURCE_ROOT; };
+		F3D9E8B322B99CB200DE79CB /* red-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-icon.png"; path = "Assets/App-Icons/red-icon.png"; sourceTree = SOURCE_ROOT; };
+		F3D9E8B422B99CB200DE79CB /* blue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue-icon.png"; path = "Assets/App-Icons/blue-icon.png"; sourceTree = SOURCE_ROOT; };
+		F3D9E8B522B99CB200DE79CB /* yellow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellow-icon.png"; path = "Assets/App-Icons/yellow-icon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		F3D9E89D22B984E000DE79CB /* Multiple App Icons */ = {
 			isa = PBXGroup;
 			children = (
+				F3D9E8B022B99C7D00DE79CB /* App Icons */,
 				F3D9E89E22B984E000DE79CB /* AppDelegate.swift */,
 				F3D9E8A022B984E000DE79CB /* ViewController.swift */,
 				F3D9E8A522B984EC00DE79CB /* Assets.xcassets */,
@@ -59,6 +70,18 @@
 				F3D9E8AA22B984EC00DE79CB /* Info.plist */,
 			);
 			path = "Multiple App Icons";
+			sourceTree = "<group>";
+		};
+		F3D9E8B022B99C7D00DE79CB /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F3D9E8B422B99CB200DE79CB /* blue-icon.png */,
+				F3D9E8B122B99CB200DE79CB /* green-icon.png */,
+				F3D9E8B222B99CB200DE79CB /* orange-icon.png */,
+				F3D9E8B322B99CB200DE79CB /* red-icon.png */,
+				F3D9E8B522B99CB200DE79CB /* yellow-icon.png */,
+			);
+			path = "App Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,8 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D9E8B722B99CB200DE79CB /* orange-icon.png in Resources */,
+				F3D9E8B822B99CB200DE79CB /* red-icon.png in Resources */,
 				F3D9E8A922B984EC00DE79CB /* LaunchScreen.storyboard in Resources */,
 				F3D9E8A622B984EC00DE79CB /* Assets.xcassets in Resources */,
+				F3D9E8B922B99CB200DE79CB /* blue-icon.png in Resources */,
+				F3D9E8BA22B99CB200DE79CB /* yellow-icon.png in Resources */,
+				F3D9E8B622B99CB200DE79CB /* green-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
