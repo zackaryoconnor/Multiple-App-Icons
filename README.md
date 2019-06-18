@@ -50,7 +50,7 @@ The first thing you are going to want to do is setup a basic UITableViewControll
 Next, create a new folder named ‘App Icons’, or whatever you want to call it. We will be storing our assets in this folder instead of in the ‘Assets.xcassets’ folder.
 Drag and drop your app icon assets into the folder we just created and check the box that says ‘copy items if needed’.
 
-![](/Assets/Screen%20Shot%202019-06-18%20at%203.26.46%20PM.png)
+![](/Assets/Copy-items-if-needed-screen-shot.png)
 
 We will then head back to the ViewController.swift file and create an array containing all the names of the images we will be using. 
 `fileprivate let appIcons = [
@@ -174,3 +174,7 @@ Since we have five icons, our code would be...
                 </dict>
             </dict>
         </dict>
+
+So our Info.plist should look something like this.
+
+![](/Assets/Info.plist-screen-shot.png)
