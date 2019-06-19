@@ -49,7 +49,7 @@ The first thing you are going to want to do is setup a basic UITableViewControll
 Next, create a new folder named ‘App Icons’, or whatever you want to call it. We will be storing our assets in this folder instead of in the ‘Assets.xcassets’ folder.
 Drag and drop your app icon assets into the folder we just created and check the box that says ‘copy items if needed’.
 
-![](/Assets/Copy-items-if-needed-screen-shot.png)
+![](/Assets/Screen-shots/Copy-items-if-needed-screen-shot.png)
 
 Since we aren't using the app icon template Assets.xcassests, we need to delete it. Click the 'Assets.xcassests' and right click on 'AppIcon' and select 'Remove Selected Items' 
 
@@ -182,7 +182,7 @@ Since we have five icons, our code would be...
 
 Our Info.plist should look something like this now.
 
-![](/Assets/Info.plist-screen-shot.png)
+![](/Assets/Screen-shots/Info.plist-screen-shot.png)
 
 </br>
 
