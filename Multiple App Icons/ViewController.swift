@@ -26,6 +26,15 @@ class ViewController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
     }
 
+    
+    fileprivate func setAppIcon(_ named: String?) {
+        UIApplication.shared.setAlternateIconName(named) { (error) in
+            if let error = error {
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
 }
 
 
@@ -41,6 +50,21 @@ extension ViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         cell.textLabel?.text = appIcons[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if UIApplication.shared.supportsAlternateIcons {
+            let row = indexPath.row
+            
+            switch row {
+            case 0: setAppIcon(nil)
+            case 1: setAppIcon("blue-icon")
+            case 2: setAppIcon("green-icon")
+            case 3: setAppIcon("orange-icon")
+            case 4: setAppIcon("yellow-icon")
+            default: setAppIcon(nil)
+            }
+        }
     }
     
 }

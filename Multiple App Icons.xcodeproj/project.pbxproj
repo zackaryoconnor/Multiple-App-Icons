@@ -297,7 +297,6 @@
 		F3D9E8AE22B984EC00DE79CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZE62SD4Y5;
 				INFOPLIST_FILE = "Multiple App Icons/Info.plist";
@@ -315,7 +314,6 @@
 		F3D9E8AF22B984EC00DE79CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZE62SD4Y5;
 				INFOPLIST_FILE = "Multiple App Icons/Info.plist";
