@@ -51,7 +51,9 @@ Drag and drop your app icon assets into the folder we just created and check the
 
 ![](/Assets/Copy-items-if-needed-screen-shot.png)
 
-Since we aren't using the app icon template Assets.xcassests, we need to delete it. Click the 'Assets.xcassests' and right click on 'AppIcon' and select 'Remove Selected Items'
+Since we aren't using the app icon template Assets.xcassests, we need to delete it. Click the 'Assets.xcassests' and right click on 'AppIcon' and select 'Remove Selected Items' 
+
+# Finish writing this part...
 
 Now go to the project 
 
