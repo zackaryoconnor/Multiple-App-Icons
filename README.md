@@ -53,9 +53,14 @@ Drag and drop your app icon assets into the folder we just created and check the
 
 Since we aren't using the app icon template Assets.xcassests, we need to delete it. Click the 'Assets.xcassests' and right click on 'AppIcon' and select 'Remove Selected Items' 
 
-# Finish writing this part...
+Now go to the project overview, I think thats what its called...
+Once there scroll down a little bit and select the drop down next to 'App Icons Source', and click on 'Don't use asset catalogs'.
 
-Now go to the project 
+![](/Assets/Screen-shots/Dont-use-asset-catalogs-screen-shot.png)
+
+After selecting 'Don't use asset catalogs, it may be red and still saying "AppIcon", it's just a bug in xcode, so don't worry about it.
+
+![](/Assets/Screen-shots/Asset-catalog-missing-screen-shot.png)
 
 We will then head back to the ViewController.swift file and create an array containing all the names of the images we will be using. 
 `fileprivate let appIcons = [
