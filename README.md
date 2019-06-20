@@ -284,23 +284,10 @@ Our final code should look something like this.
         }
     
     }
+    
+    
+Lets run the app make sure everything is working properly.
 
-Great! You now have mulitple icons for your app!
+<img src="/Assets/Screen-shots/Simulator%20Screen%20Shot%20-%20iPhone%20Xs%20-%20red%20icon.png" width=250><img src="/Assets/Screen-shots/Simulator%20Screen%20Shot%20-%20iPhone%20Xs%20-%20selected%20different%20icon.png" width=250><img src="/Assets/Screen-shots/Simulator%20Screen%20Shot%20-%20iPhone%20Xs%20-%20blue%20icon.png" width=250>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Awesome! Everything is working!
